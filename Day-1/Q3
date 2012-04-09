@@ -1,0 +1,10 @@
+#!/bin/bash
+clear
+date +%D
+date +%T
+hostname
+pwd
+logname
+echo "$((`who|wc -l`-1))"
+
+
